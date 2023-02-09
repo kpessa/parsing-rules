@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parsing Rules</title>
     <script src="./app.js" defer></script>
-    <style>
-
-        html {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        h1,h2 {
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            text-align: center;
-        }
-
-        p {
-            text-align: center;
-        }
-
-        input {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1.25rem;
-            text-align: center;
-            margin: 0 auto;
-        }
-
-        button { 
-            font-size: 1.25rem;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
+
 <body>
-    <h1>Parsing Rules</h1>
-    <input type="number">
-    <button id="calculate">Parse</button>
-    <h2>Possible NDCs</h2>
-    <div id="output"></div>
+    <h1>Parsing Rules / NDC Search</h1>
+    <main>
+        <div id="barcode">
+            <h2>Barcode</h2>
+            <input id=inpBarcode type="number">
+            <button id="parse">Parse</button>
+            <h2>Possible NDCs</h2>
+            <div id="output"></div>
+            
+        </div>
+        <div id="ndc">
+            <h2>NDC</h2>
+            <input id=inpNDC type="text">
+            <button id="search">Search</button>
+        </div>
+    </main>
+    <div id="product-details">
+        <h2>Product Details</h2>
+    </div>
+    <div id="related-product-details">
+        <p id="error-message">NDC was not found</p>
+        <h2>Related Products</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NDC</th>
+                    <th>Status</th>
+                    <th>ConceptName</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>

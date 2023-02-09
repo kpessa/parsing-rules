@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1,h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button { 
+    font-size: 1.25rem;
+}
+
+#product-details, #related-product-details {
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+    font-family: Verdana;
+    border: 2px solid black;
+}
+
+table th {
+    background: lightgrey;
+}
+
+table td, table th {
+    padding: 0.5rem;
+    border: 1px solid grey;
+}
+
+#error-message {
+    color: red;
+    display:none;
+}

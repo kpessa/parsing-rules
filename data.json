@@ -1,0 +1,51 @@
+{
+    "ndcPropertyList": {
+        "ndcProperty": [
+            {
+                "ndcItem": "24208000202",
+                "ndc9": "24208-002",
+                "ndc10": "24208-002-02",
+                "rxcui": "582692",
+                "splSetIdItem": "21fbd12e-4a12-4ad1-ad01-964cd5ec9996",
+                "packagingList": {
+                    "packaging": [
+                        "2 VIAL, SINGLE-USE in 1 CARTON (24208-002-02)  > 1.2 mL in 1 VIAL, SINGLE-USE"
+                    ]
+                },
+                "propertyConceptList": {
+                    "propertyConcept": [
+                        {
+                            "propName": "BLA",
+                            "propValue": "BLA021640"
+                        },
+                        {
+                            "propName": "DM_SPL_ID",
+                            "propValue": "488853"
+                        },
+                        {
+                            "propName": "LABELER",
+                            "propValue": "Bausch & Lomb Incorporated"
+                        },
+                        {
+                            "propName": "LABEL_TYPE",
+                            "propValue": "HUMAN PRESCRIPTION DRUG"
+                        },
+                        {
+                            "propName": "MARKETING_CATEGORY",
+                            "propValue": "BLA"
+                        },
+                        {
+                            "propName": "MARKETING_EFFECTIVE_TIME_LOW",
+                            "propValue": "20050201"
+                        },
+                        {
+                            "propName": "MARKETING_STATUS",
+                            "propValue": "ACTIVE"
+                        }
+                    ]
+                },
+                "source": "Hybrid"
+            }
+        ]
+    }
+}

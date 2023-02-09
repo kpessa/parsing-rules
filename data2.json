@@ -1,0 +1,22 @@
+{
+    "ndcInfoList": {
+        "ndcInfo": [
+            {
+                "ndc11": "24208000201",
+                "status": "ACTIVE",
+                "rxcui": "582692",
+                "conceptName": "1.2 ML hyaluronidase, ovine 200 UNT/ML Injection [Vitrase]",
+                "conceptStatus": "ACTIVE",
+                "tty": "SBD"
+            },
+            {
+                "ndc11": "24208000202",
+                "status": "ACTIVE",
+                "rxcui": "582692",
+                "conceptName": "1.2 ML hyaluronidase, ovine 200 UNT/ML Injection [Vitrase]",
+                "conceptStatus": "ACTIVE",
+                "tty": "SBD"
+            }
+        ]
+    }
+}
